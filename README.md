@@ -27,7 +27,7 @@ Simple front-end app showcasing my work as a developer, contact info and social 
 
 -> [git](https://git-scm.com/doc);
 
--> [javascript](https://www.javascript.com/)
+-> [javascript](https://www.javascript.com/);
 
 -> [html5](https://www.w3.org/html/);
 
