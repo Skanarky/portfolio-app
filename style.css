@@ -101,37 +101,14 @@ a {
     line-height: 35px;
 }
 
-a:hover {
-    text-transform: lowercase;
-    cursor: pointer;
-    color: rgb(128, 128, 128);
-    font-weight: bold;
-    border: 2px solid rgb(128, 128, 128);
-}
-
 .fa {
     color: black;
     padding: 3px 5px 2px 5px;
-    border-radius: 20%;
     font-size: 2em;
 }
 
 .fa-twitter {
     padding: 3px 3px 2px 4px;
-}
-
-.fa-envelope {
-    border: none;
-}
-
-.fa:hover {
-    color: rgb(128, 128, 128);
-    border: 2px solid rgb(128, 128, 128);
-    filter: blur(0.4px);
-}
-
-.fa-envelope:hover {
-    border: none;
 }
 
 @media (max-width: 360px) {
@@ -186,6 +163,16 @@ a:hover {
     .fa {
         font-size: 2.2em;
     }
+    .fa:hover {
+        color: rgb(128, 128, 128);
+        border: 2px solid rgb(128, 128, 128);
+        filter: blur(0.4px);
+        border-radius: 20%;
+    }
+    
+    .fa-envelope:hover {
+        border: none;
+    }
     h5 {
         font-size: 1.5em;
         line-height: 50px;
@@ -193,6 +180,15 @@ a:hover {
     a {
         font-size: 1.7em;
         padding: 3px;
+    }
+
+    a:hover {
+        text-transform: lowercase;
+        cursor: pointer;
+        color: rgb(128, 128, 128);
+        font-weight: bold;
+        border: 2px solid rgb(128, 128, 128);
+        border-radius: 9%;
     }
     .node {
         background-size: cover;
