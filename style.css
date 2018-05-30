@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:500');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainWrapper {
+    height: 100vh;
+    width: 100vw;
+    display: relative;
+    font-family: 'Exo 2', sans-serif;
+}
+
+h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-transform: capitalize;
+    font-size: 1.9em;
+}
+
+.viewContent {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.more {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    list-style: none;
+    width: 100%;
+}
+
+li {
+    margin: auto;
+}
+
+.row {
+    width: 190px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.pic {
+    height: 55px;
+    width: 55px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.html {
+    background-image: url(./images/html.png);
+}
+
+.css {
+    background-size: cover;
+    background-image: url(./images/css.png);
+}
+
+.js {
+    background-size: cover;
+    background-image: url(./images/js.png);
+}
+
+.node {
+    background-image: url(./images/node.png);
+}
+
+.react {
+    background-image: url(./images/react.png);
+}
+
+.mongo {
+    background-image: url(./images/mongo.png);
+}
+
+h5 {
+    line-height: 40px;
+    font-size: 1.2em;
+}
+
+.contact {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.35em;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+a:hover {
+    text-transform: lowercase;
+    cursor: pointer;
+    color: rgb(128, 128, 128);
+    font-weight: bold;
+    border: 2px solid rgb(128, 128, 128);
+}
+
+.fa {
+    color: black;
+    padding: 3px 5px 2px 5px;
+    border-radius: 20%;
+    font-size: 2em;
+}
+
+.fa-twitter {
+    padding: 3px 3px 2px 4px;
+}
+
+.fa-envelope {
+    border: none;
+}
+
+.fa:hover {
+    color: rgb(128, 128, 128);
+    border: 2px solid rgb(128, 128, 128);
+    filter: blur(0.4px);
+}
+
+.fa-envelope:hover {
+    border: none;
+}
+
+@media (max-width: 360px) {
+    h3 {
+        font-size: 1.5em;
+    }
+    .pic {
+        height: 50px;
+        width: 50px;
+    }
+    .row {
+        width: 170px;
+        height: 150px;
+    }
+}
+
+@media (max-height: 414px) {
+    .viewContent {
+        top: 73%;
+    }
+    a {
+        line-height: 30px;
+    }
+    .row {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 813px) {
+    .viewContent {
+        top: 60%;
+    }
+    h3 {
+        font-size: 2.8em;
+    }
+    h3:hover {
+        text-transform: lowercase;
+        cursor: pointer;
+        color: rgb(128, 128, 128);
+        font-size: 2.85em;
+    }
+    .more {
+        display: flex;
+        flex-direction: row;
+    }
+    .row {
+        width: 250px;
+        height: 170px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .fa {
+        font-size: 2.2em;
+    }
+    h5 {
+        font-size: 1.5em;
+        line-height: 50px;
+    }
+    a {
+        font-size: 1.7em;
+        padding: 3px;
+    }
+    .node {
+        background-size: cover;
+        width: 105px;
+    }
+    .contact {
+        padding-top: 25px;
+    }
+}
