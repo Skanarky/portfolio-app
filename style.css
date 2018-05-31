@@ -48,11 +48,11 @@
 }
 
 .colorProjects {
-    background-color: rgb(107, 18, 107);
+    background-color: rgb(197, 41, 41);
 }
 
 .projects {
-    color: rgb(107, 18, 107);
+    color: rgb(197, 41, 41);
 }
 
 .colorGitHub {
@@ -80,11 +80,11 @@
 }
 
 .colorResume {
-    background-color: rgb(197, 41, 41);
+    background-color: rgb(107, 18, 107);
 }
 
 .resume {
-    color: rgb(197, 41, 41);
+    color: rgb(107, 18, 107);
 }
 
 .colorContact {
@@ -273,14 +273,12 @@ a {
         height: 170px;
         padding: 10px;
         margin-top: 90px;
-        filter: grayscale(100%);
         border: 3px solid white;
+        border-radius: 7px;
     }
     .row:hover {
         cursor: pointer;
         border: 3px solid rgb(20, 158, 20);
-        border-radius: 7px;
-        filter: grayscale(0%);
     }
     .fa {
         font-size: 2.2em;
@@ -307,28 +305,24 @@ a {
     }
     a:hover {
         cursor: pointer;
-        color: rgb(107, 18, 107);
-        border: 2px solid rgb(107, 18, 107);
+        color: rgb(197, 41, 41);
+        border: 2px solid rgb(197, 41, 41);;
     }
     .hoverGit:hover {
         color: dimgray;
         border: 2px solid dimgray;
-        border-radius: 7px;
     }
     .hoverLinked:hover {
         color: rgb(72, 117, 180);
         border: 2px solid rgb(72, 117, 180);
-        border-radius: 7px;
     }
     .hoverTwitter:hover {
         color: rgb(46, 187, 235);
         border: 2px solid rgb(46, 187, 235);
-        border-radius: 7px;
     }
     .hoverResume:hover {
-        color: rgb(197, 41, 41);
-        border: 2px solid rgb(197, 41, 41);
-        border-radius: 7px;
+        color: rgb(107, 18, 107);
+        border: 2px solid rgb(107, 18, 107);
     }
     .node {
         background-size: cover;
