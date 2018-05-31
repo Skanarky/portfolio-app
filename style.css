@@ -46,24 +46,6 @@
     color: rgb(20, 158, 20);
 }
 
-@keyframes rotateX {
-    from {
-        transform: rotateX(0deg);
-    }
-    to {
-        transform: rotateX(360deg);
-    }
-}
-
-@-webkit-keyframes rotateX {
-    from {
-        -webkit-transform: rotateX(0deg);
-    }
-    to {
-        -webkit-transform: rotateX(360deg);
-    }
-}
-
 @keyframes rotateY {
     from {
         transform: rotateY(0deg);
@@ -287,6 +269,9 @@ a {
     h3:hover {
         font-size: 2.82em;
         cursor: pointer;
+    }
+    .ilian:hover {
+        animation: none;
     }
     .navigation div {
         width: 43px;
