@@ -288,6 +288,7 @@ a {
     }
     .ilian:hover {
         animation: rotateX 2s 1;
+        color: rgb(128, 128, 128)
     }
     h3 {
         font-size: 2.77em;
