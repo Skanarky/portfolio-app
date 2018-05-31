@@ -12,6 +12,84 @@
     font-family: 'Exo 2', sans-serif;
 }
 
+.navigation {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.navigation div {
+    width: 40px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.selected {
+    border: 5px solid white;
+}
+
+.colorIlian {
+    background-color: rgb(20, 158, 20);
+}
+
+.ilian {
+    color: rgb(20, 158, 20);
+}
+
+.colorProjects {
+    background-color: rgb(107, 18, 107);
+}
+
+.projects {
+    color: rgb(107, 18, 107);
+}
+
+.colorGitHub {
+    background-color: rgb(51, 51, 51);
+}
+
+.gitHub {
+    color: rgb(51, 51, 51);
+}
+
+.colorLinkedIn {
+    background-color: rgb(72, 117, 180);
+}
+
+.linkedIn {
+    color: rgb(72, 117, 180);
+}
+
+.colorTwitter {
+    background-color: rgb(46, 187, 235);
+}
+
+.twitter {
+    color: rgb(46, 187, 235);
+}
+
+.colorResume {
+    background-color: rgb(197, 41, 41);
+}
+
+.resume {
+    color: rgb(197, 41, 41);
+}
+
+.colorContact {
+    background-color: darkorange;
+}
+
+.contact {
+    color: darkorange;
+}
+
 h3 {
     position: absolute;
     top: 50%;
@@ -88,20 +166,20 @@ h5 {
     font-size: 1.2em;
 }
 
-.contact {
+.phone {
     text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: black;
     font-size: 1.35em;
     font-weight: bold;
     line-height: 35px;
+    color: rgb(51, 51, 51);
 }
 
 .fa {
-    color: black;
+    color: rgb(51, 51, 51);
     padding: 3px 5px 2px 5px;
     font-size: 2em;
 }
@@ -122,6 +200,11 @@ a {
         width: 170px;
         height: 150px;
     }
+    .navigation div {
+        width: 35px;
+        height: 25px;
+        margin: 4px;
+    }
 }
 
 @media (max-height: 414px) {
@@ -136,6 +219,14 @@ a {
     }
 }
 
+@media (min-width: 414px) {
+    .navigation div {
+        width: 40px;
+        height: 30px;
+        margin: 8px;
+    }
+}
+
 @media (min-width: 813px) {
     .viewContent {
         top: 60%;
@@ -146,8 +237,16 @@ a {
     h3:hover {
         text-transform: lowercase;
         cursor: pointer;
-        color: rgb(128, 128, 128);
-        font-size: 2.85em;
+        font-size: 2.9em;
+    }
+    .navigation div {
+        width: 43px;
+        height: 30px;
+        margin: 10px;
+    }
+    .navigation div:hover {
+        border: 5px solid white;
+        cursor: pointer;
     }
     .more {
         display: flex;
@@ -157,7 +256,14 @@ a {
         width: 250px;
         height: 170px;
         padding: 10px;
-        margin-top: 50px;
+        margin-top: 90px;
+        filter: grayscale(100%);
+    }
+    .row:hover {
+        cursor: pointer;
+        border: 2px solid rgb(20, 158, 20);
+        border-radius: 7px;
+        filter: grayscale(0%);
     }
     .fa {
         font-size: 2.2em;
@@ -165,11 +271,11 @@ a {
     .fa:hover {
         color: rgb(128, 128, 128);
         border: 2px solid rgb(128, 128, 128);
-        filter: blur(0.4px);
-        border-radius: 20%;
+        border-radius: 7px;
     }
-    .fa-envelope:hover {
+    .envelope:hover {
         border: none;
+        color: darkorange;
     }
     h5 {
         font-size: 1.5em;
@@ -182,15 +288,36 @@ a {
         text-transform: lowercase;
         padding: 3px;
         cursor: pointer;
-        color: rgb(128, 128, 128);
-        border: 2px solid rgb(128, 128, 128);
+        color: rgb(107, 18, 107);
+        border: 2px solid rgb(107, 18, 107);
+        border-radius: 7px;
+    }
+
+    .hoverGit:hover {
+        color: rgb(51, 51, 51);
+        border: 2px solid rgb(51, 51, 51);
+        border-radius: 7px;
+    }
+    .hoverLinked:hover {
+        color: rgb(72, 117, 180);
+        border: 2px solid rgb(72, 117, 180);
+        border-radius: 7px;
+    }
+    .hoverTwitter:hover {
+        color: rgb(46, 187, 235);
+        border: 2px solid rgb(46, 187, 235);
+        border-radius: 7px;
+    }
+    .hoverResume:hover {
+        color: rgb(197, 41, 41);
+        border: 2px solid rgb(197, 41, 41);
         border-radius: 7px;
     }
     .node {
         background-size: cover;
         width: 105px;
     }
-    .contact {
+    .phone {
         padding-top: 25px;
     }
 }

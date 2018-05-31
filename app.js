@@ -20,4 +20,4 @@ function changeContent() {
     }
     contentIndex = 0;
     return document.getElementById("render").innerHTML = allContents[contentIndex];
-}
+};
