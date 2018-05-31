@@ -140,7 +140,6 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     text-transform: capitalize;
     font-size: 1.9em;
 }
@@ -282,19 +281,11 @@ a {
     .viewContent {
         top: 60%;
     }
-    .ilian {
-        width: 400px;
-        height: 100px;
-    }
-    .ilian:hover {
-        animation: rotateX 2s 1;
-        color: rgb(128, 128, 128)
-    }
     h3 {
         font-size: 2.77em;
     }
     h3:hover {
-        font-size: 2.8em;
+        font-size: 2.82em;
         cursor: pointer;
     }
     .navigation div {
