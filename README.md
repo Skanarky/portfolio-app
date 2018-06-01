@@ -1,5 +1,5 @@
 # Portfolio
-[Website](http://kutkurov.surge.sh/)
+[Website](http://kutkurov.com/)
 
 ## Table of Contents
 
