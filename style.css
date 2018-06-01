@@ -287,6 +287,9 @@ a {
     .ilian {
         font-size: 2.77em;
     }
+    p {
+        font-size: 2em;
+    }
     h3:hover,
     .ilian:hover {
         font-size: 2.82em;
