@@ -74,6 +74,16 @@
     animation-timing-function: linear;
 }
 
+p {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: black;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
 h3 {
     position: fixed;
     top: 50%;
@@ -230,6 +240,9 @@ a {
     .ilian {
         font-size: 30px;
     }
+    p {
+        font-size: 20px;
+    }
     .pic {
         height: 50px;
         width: 50px;
@@ -266,7 +279,8 @@ a {
 }
 
 @media (min-width: 813px) {
-    .viewContent {
+    .viewContent,
+    p {
         top: 60%;
     }
     h3,
