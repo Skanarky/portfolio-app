@@ -58,7 +58,7 @@
     }
     to {
         /* transform: webDevName(360deg); */
-        opacity: 1;
+        opacity: 0.85;
     }
 }
 
@@ -69,7 +69,7 @@
     }
     to {
         /* -webkit-transform: webDevName(360deg); */
-        opacity: 1;
+        opacity: 0.85;
     }
 }
 @keyframes webDev {
@@ -101,7 +101,8 @@
     color: white;
     text-transform: capitalize;
     font-size: 35px;
-    animation: webDevName 1.3s 1;
+    opacity: 0.85;
+    animation: webDevName 1.4s 1;
     animation-timing-function: linear;
 }
 
@@ -114,7 +115,7 @@ p {
     opacity: 0;
     text-transform: capitalize;
     font-size: 25px;
-    animation: webDev 3s 2s 1;
+    animation: webDev 3.5s 2s 1;
     animation-timing-function: linear;
 }
 

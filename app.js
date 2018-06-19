@@ -29,7 +29,7 @@ setTimeout(() => {
     } else {
         return;
     }
-}, 5000);
+}, 5500);
 
 function setContent(inputIndex) {
     contentIndex = inputIndex;
