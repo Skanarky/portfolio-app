@@ -1,5 +1,5 @@
 # Portfolio
-[Website](http://kutkurov.com/)
+[View website here](http://kutkurov.com/)
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@
 
 ## Description
 
-Simple front-end app showcasing my work as a developer, contact info and social profiles.
+Simple front-end app showcasing my work as a web developer, as well as my contact information and social profiles.
 
 
 
@@ -25,10 +25,10 @@ Simple front-end app showcasing my work as a developer, contact info and social 
 
 ## Technologies Used
 
--> [git](https://git-scm.com/doc);
+-> [Git](https://git-scm.com/doc);
 
 -> [javascript](https://www.javascript.com/);
 
--> [html5](https://www.w3.org/html/);
-
 -> [css](https://www.w3.org/Style/CSS/), [css grid](https://www.w3.org/TR/css-grid/), [css flex-box](https://www.w3.org/TR/css-flexbox/);
+
+-> [html5](https://www.w3.org/html/);
