@@ -106,12 +106,12 @@
     color: white;
     text-transform: capitalize;
     font-size: 35px;
-    background-color: black;
+    background-color: rgb(0, 0, 0, .8);
     animation: webDevName 1.4s 1;
     animation-timing-function: linear;
 }
 
-p {
+.developer {
     position: absolute;
     top: 65%;
     left: 50%;
@@ -120,11 +120,11 @@ p {
     opacity: 0;
     text-transform: capitalize;
     font-size: 25px;
-    background-color: black;
+    background-color: rgb(0, 0, 0, .8);;
     padding-left: 5px;
     padding-right: 5px;
-    padding-bottom: 3px;
-    border-radius: 5px;
+    padding-bottom: 2px;
+    border-radius: 3px;
     animation: webDev 3.5s 2s 1;
     animation-timing-function: linear;
 }
@@ -291,7 +291,7 @@ a {
     .ilian {
         font-size: 30px;
     }
-    p {
+    .developer {
         font-size: 20px;
     }
     .pic {
@@ -337,12 +337,12 @@ a {
     .ilian {
         font-size: 2.77em;
     }
-    p {
+    .developer {
         font-size: 2em;
     }
     h3:hover,
     .ilian:hover {
-        font-size: 2.82em;
+        opacity: 0.6;
         cursor: pointer;
     }
     .navigation div {
@@ -408,7 +408,6 @@ a {
         cursor: pointer;
         color: rgb(197, 41, 41);
         border: 2px solid rgb(197, 41, 41);
-        ;
     }
     .hoverGit:hover {
         color: dimgray;
@@ -444,7 +443,7 @@ a {
         justify-content: right;
         padding-left: 20px;
     }
-    p {
+    .developer {
         top: 50%;
         left: 70%;
         padding: 0;
@@ -459,7 +458,7 @@ a {
     .ilian {
         padding-left: 40px;
     }
-    p {
+    .developer {
         font-size: 3.4em;
     }
     h3:hover,
