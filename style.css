@@ -342,9 +342,15 @@ a {
     }
     h3:hover,
     .ilian:hover {
-        opacity: 0.6;
         cursor: pointer;
     }
+    h3:hover {
+        font-size: 2.81em;
+    }
+    .ilian:hover {
+        opacity: 0.6;
+    }
+
     .navigation div {
         width: 52px;
         height: 33px;
