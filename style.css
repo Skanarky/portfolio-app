@@ -48,6 +48,7 @@
 
 .colorTech {
     background-color: rgb(20, 158, 20);
+    color: rgb(20, 158, 20);
 }
 
 .technologies {
@@ -139,6 +140,7 @@ h3 {
 
 .colorProjects {
     background-color: rgb(197, 41, 41);
+    color: rgb(197, 41, 41);
 }
 
 .projects {
@@ -147,6 +149,7 @@ h3 {
 
 .colorGitHub {
     background-color: dimgray;
+    color: dimgray;
 }
 
 .gitHub {
@@ -155,6 +158,7 @@ h3 {
 
 .colorLinkedIn {
     background-color: rgb(72, 117, 180);
+    color: rgb(72, 117, 180);
 }
 
 .linkedIn {
@@ -163,6 +167,7 @@ h3 {
 
 .colorTwitter {
     background-color: rgb(46, 187, 235);
+    color: rgb(46, 187, 235);
 }
 
 .twitter {
@@ -171,6 +176,7 @@ h3 {
 
 .colorResume {
     background-color: rgb(107, 18, 107);
+    color: rgb(107, 18, 107);
 }
 
 .resume {
@@ -179,6 +185,7 @@ h3 {
 
 .colorContact {
     background-color: darkorange;
+    color: darkorange;
 }
 
 .contact {
@@ -356,11 +363,15 @@ a {
         cursor: pointer;
     }
     .navigation div {
-        width: 43px;
-        height: 30px;
+        width: 52px;
+        height: 33px;
         margin: 10px;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 1.2em;
+        text-align: center;
     }
     .navigation div:hover {
+        color: white;
         border: 5px solid white;
         border-right: 7px solid white;
         border-left: 7px solid white;
