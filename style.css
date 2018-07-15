@@ -23,38 +23,6 @@
     justify-content: center;
 }
 
-.navigation {
-    position: fixed;
-    top: 25%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}
-
-.navigation div {
-    width: 40px;
-    height: 27px;
-    border-radius: 5px;
-    margin: 5px;
-}
-
-.selected {
-    border: 5px solid white;
-    filter: brightness(110%);
-}
-
-.colorTech {
-    background-color: rgb(20, 158, 20);
-    color: rgb(20, 158, 20);
-}
-
-.technologies {
-    color: rgb(20, 158, 20);
-}
-
 @keyframes webDevName {
     from {
         /* transform: webDevName(0deg); */
@@ -136,6 +104,38 @@ h3 {
     transform: translateX(-50%) translateY(-50%);
     text-transform: capitalize;
     font-size: 35px;
+}
+
+.navigation {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.navigation div {
+    width: 40px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.selected {
+    border: 5px solid white;
+    filter: brightness(110%);
+}
+
+.colorTech {
+    background-color: rgb(20, 158, 20);
+    color: rgb(20, 158, 20);
+}
+
+.technologies {
+    color: rgb(20, 158, 20);
 }
 
 .colorProjects {
