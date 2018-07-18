@@ -442,6 +442,8 @@ a {
     .ilian {
         width: 30%;
         justify-content: right;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
         padding-left: 20px;
     }
     .developer {
