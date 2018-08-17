@@ -207,14 +207,15 @@ h6 {
 
 .more {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    /* grid-template-rows: 50% 50%; */
     list-style: none;
     width: 100%;
 }
 
 li {
     margin: auto;
+    padding-top: 15px;
 }
 
 .row {
