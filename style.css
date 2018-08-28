@@ -20,7 +20,7 @@
 .five,
 .six,
 .seven {
-    height: 97vh;
+    height: 99vh;
     width: 98vw;
     position: absolute;
     top: 50%;
@@ -404,6 +404,7 @@ a {
     .five,
     .six,
     .seven {
+        height: 97vh;
         border-radius: 20px;
     }
     .viewContent {
