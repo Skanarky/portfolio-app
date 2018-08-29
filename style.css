@@ -20,8 +20,9 @@
 .five,
 .six,
 .seven {
-    height: 99vh;
+    height: 98vh;
     width: 98vw;
+    width: 97vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -88,7 +89,8 @@
 }
 
 .seven {
-    border: 2px solid darkorange;
+    border: 2px s
+    width: 98vw;olid darkorange;
     -webkit-box-shadow: 2px 2px 14px 2px darkorange, -2px -2px 14px 2px darkorange;
     -moz-box-shadow: 2px 2px 14px 2px darkorange, -2px -2px 14px 2px darkorange;
     box-shadow: 2px 2px 14px 2px darkorange, -2px -2px 14px 2px darkorange;
@@ -423,6 +425,7 @@ a {
     .six,
     .seven {
         height: 97vh;
+        width: 98vw;
         border-radius: 20px;
     }
     .viewContent {
