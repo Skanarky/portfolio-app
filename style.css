@@ -89,8 +89,7 @@
 }
 
 .seven {
-    border: 2px s
-    width: 98vw;olid darkorange;
+    border: 2px solid darkorange;
     -webkit-box-shadow: 2px 2px 14px 2px darkorange, -2px -2px 14px 2px darkorange;
     -moz-box-shadow: 2px 2px 14px 2px darkorange, -2px -2px 14px 2px darkorange;
     box-shadow: 2px 2px 14px 2px darkorange, -2px -2px 14px 2px darkorange;
