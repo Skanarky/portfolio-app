@@ -12,7 +12,7 @@
     position: relative;
 }
 
-.hello,
+/* .hello, */
 .one,
 .two,
 .three,
@@ -30,14 +30,16 @@
 }
 
 .hello {
-    border: 2px solid rgb(190, 190, 190);
-    box-shadow: 3px 2px 14px 2px rgb(190, 190, 190), -3px -2px 14px 2px rgb(190, 190, 190);
+    /* border: 2px solid rgb(190, 190, 190);
+    -webkit-box-shadow: 3px 2px 14px 2px rgb(190, 190, 190), -3px -2px 14px 2px rgb(190, 190, 190);
+    -moz-box-shadow: 3px 2px 14px 2px rgb(190, 190, 190), -3px -2px 14px 2px rgb(190, 190, 190);
+    box-shadow: 3px 2px 14px 2px rgb(190, 190, 190), -3px -2px 14px 2px rgb(190, 190, 190); */
     background-color: black;
     background-size: contain;
     background-position: center;
     background-image: url(./images/8255549090_d75f6eb4b9_b.jpg);
-    /* height: 100vh;
-    width: 100vw; */
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,36 +47,50 @@
 
 .one {
     border: 2px solid rgb(20, 158, 20);
+    -webkit-box-shadow: 2px 2px 14px 2px rgb(20, 158, 20), -2px -2px 14px 2px rgb(20, 158, 20);
+    -moz-box-shadow: 2px 2px 14px 2px rgb(20, 158, 20), -2px -2px 14px 2px rgb(20, 158, 20);
     box-shadow: 2px 2px 14px 2px rgb(20, 158, 20), -2px -2px 14px 2px rgb(20, 158, 20);
 }
 
 .two {
     border: 2px solid rgb(197, 41, 41);
+    -webkit-box-shadow: 2px 2px 14px 2px rgb(197, 41, 41), -2px -2px 14px 2px rgb(197, 41, 41);
+    -moz-box-shadow: 2px 2px 14px 2px rgb(197, 41, 41), -2px -2px 14px 2px rgb(197, 41, 41);
     box-shadow: 2px 2px 14px 2px rgb(197, 41, 41), -2px -2px 14px 2px rgb(197, 41, 41);
 }
 
 .three {
     border: 2px solid dimgray;
+    -webkit-box-shadow: 2px 2px 14px 2px dimgray, -2px -2px 14px 2px dimgray;
+    -moz-box-shadow: 2px 2px 14px 2px dimgray, -2px -2px 14px 2px dimgray;
     box-shadow: 2px 2px 14px 2px dimgray, -2px -2px 14px 2px dimgray;
 }
 
 .four {
     border: 2px solid rgb(72, 117, 180);
+    -webkit-box-shadow: 2px 2px 14px 2px rgb(72, 117, 180), -2px -2px 14px 2px rgb(72, 117, 180);
+    -moz-box-shadow: 2px 2px 14px 2px rgb(72, 117, 180), -2px -2px 14px 2px rgb(72, 117, 180);
     box-shadow: 2px 2px 14px 2px rgb(72, 117, 180), -2px -2px 14px 2px rgb(72, 117, 180);
 }
 
 .five {
     border: 2px solid rgb(46, 187, 235);
+    -webkit-box-shadow: 2px 2px 14px 2px rgb(46, 187, 235), -2px -2px 14px 2px rgb(46, 187, 235);
+    -moz-box-shadow: 2px 2px 14px 2px rgb(46, 187, 235), -2px -2px 14px 2px rgb(46, 187, 235);
     box-shadow: 2px 2px 14px 2px rgb(46, 187, 235), -2px -2px 14px 2px rgb(46, 187, 235);
 }
 
 .six {
     border: 2px solid rgb(107, 18, 107);
+    -webkit-box-shadow: 2px 2px 14px 2px rgb(107, 18, 107), -2px -2px 14px 2px rgb(107, 18, 107);
+    -moz-box-shadow: 2px 2px 14px 2px rgb(107, 18, 107), -2px -2px 14px 2px rgb(107, 18, 107);
     box-shadow: 2px 2px 14px 2px rgb(107, 18, 107), -2px -2px 14px 2px rgb(107, 18, 107);
 }
 
 .seven {
     border: 2px solid darkorange;
+    -webkit-box-shadow: 2px 2px 14px 2px darkorange, -2px -2px 14px 2px darkorange;
+    -moz-box-shadow: 2px 2px 14px 2px darkorange, -2px -2px 14px 2px darkorange;
     box-shadow: 2px 2px 14px 2px darkorange, -2px -2px 14px 2px darkorange;
 }
 
@@ -290,6 +306,8 @@ li {
     margin-top: 60px;
     border: 3px solid rgb(20, 158, 20);
     border-radius: 7px;
+    -webkit-box-shadow: 0px 2px 8px 2px rgb(20, 158, 20);
+    -moz-box-shadow: 0px 2px 8px 2px rgb(20, 158, 20);
     box-shadow: 0px 2px 8px 2px rgb(20, 158, 20);
 }
 
@@ -396,7 +414,7 @@ a {
 }
 
 @media (min-width: 813px) {
-    .hello,
+    /* .hello, */
     .one,
     .two,
     .three,
@@ -436,6 +454,8 @@ a {
         border: 1.5px solid white;
         border-right: 2px solid white;
         border-left: 2px solid white;
+        -webkit-box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.85);
+        -moz-box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.85);
         box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.85);
         -webkit-transition: color .3s, box-shadow .1s;
         -o-transition: color .3s, box-shadow .1s;
@@ -445,6 +465,8 @@ a {
     .navigation div:hover {
         color: whitesmoke;
         cursor: pointer;
+        -webkit-box-shadow: 0px 1px 1px 1px rgba(128, 128, 128, 0.85);
+        -moz-box-shadow: 0px 1px 1px 1px rgba(128, 128, 128, 0.85);
         box-shadow: 0px 1px 1px 1px rgba(128, 128, 128, 0.85);
     }
     .selected {
@@ -472,6 +494,8 @@ a {
         height: 183px;
         border-radius: 25px;
         /* border: 3px solid rgb(20, 158, 20); */
+        -webkit-box-shadow: 0px 6px 12px 6px rgb(20, 158, 20);
+        -moz-box-shadow: 0px 6px 12px 6px rgb(20, 158, 20);
         box-shadow: 0px 6px 12px 6px rgb(20, 158, 20);
     }
     .fa {
@@ -559,7 +583,7 @@ a {
         /* padding: 0; */
         padding-top: 5px;
         padding-bottom: 3px;
-        border-radius: 9px;
+        border-radius: 7px;
         padding-left: 130px;
         padding-right: 15px;
         border: 3px solid rgb(255, 255, 255);
