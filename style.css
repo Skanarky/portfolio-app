@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2:500');
+
 * {
     margin: 0;
     padding: 0;
@@ -100,6 +101,7 @@
         /* transform: webDevName(0deg); */
         opacity: 0;
     }
+
     to {
         /* transform: webDevName(360deg); */
         opacity: 1;
@@ -111,6 +113,7 @@
         /* -webkit-transform: webDevName(0deg); */
         opacity: 0;
     }
+
     to {
         /* -webkit-transform: webDevName(360deg); */
         opacity: 1;
@@ -122,6 +125,7 @@
         /* transform: webDev(0deg); */
         opacity: 0.3;
     }
+
     to {
         /* transform: webDev(360deg); */
         opacity: 1;
@@ -133,6 +137,7 @@
         /* -webkit-transform: webDev(0deg); */
         opacity: 0.3;
     }
+
     to {
         /* -webkit-transform: webDev(360deg); */
         opacity: 1;
@@ -359,6 +364,7 @@ a {
     line-height: 35px;
     color: black;
     text-shadow: 2px 2px 4px darkgray;
+    position: relative;
 }
 
 .fa {
@@ -372,21 +378,26 @@ a {
 }
 
 @media (max-width: 360px) {
+
     h3,
     .ilian {
         font-size: 30px;
     }
+
     .developer {
         font-size: 20px;
     }
+
     .pic {
         height: 50px;
         width: 50px;
     }
+
     .row {
         width: 170px;
         height: 150px;
     }
+
     .navigation div {
         width: 35px;
         height: 25px;
@@ -398,9 +409,11 @@ a {
     .viewContent {
         top: 73%;
     }
+
     a {
         line-height: 30px;
     }
+
     .row {
         margin-top: 15px;
     }
@@ -415,6 +428,7 @@ a {
 }
 
 @media (min-width: 813px) {
+
     /* .hello, */
     .one,
     .two,
@@ -427,27 +441,34 @@ a {
         width: 98vw;
         border-radius: 20px;
     }
+
     .viewContent {
         top: 60%;
     }
+
     h3,
     .ilian {
         font-size: 2.77em;
     }
+
     .developer {
         font-size: 2em;
     }
+
     h3:hover,
     .ilian:hover {
         cursor: pointer;
     }
+
     h3:hover {
         font-size: 2.75em;
         text-shadow: 1px 1px 3px;
     }
+
     .ilian:hover {
         opacity: 0.7;
     }
+
     .navigation div {
         width: 52px;
         height: 35px;
@@ -464,6 +485,7 @@ a {
         -moz-transition: color .3s, box-shadow .1s;
         transition: color .3s, box-shadow .1s;
     }
+
     .navigation div:hover {
         color: whitesmoke;
         cursor: pointer;
@@ -471,13 +493,16 @@ a {
         -moz-box-shadow: 0px 1px 1px 1px rgba(128, 128, 128, 0.85);
         box-shadow: 0px 1px 1px 1px rgba(128, 128, 128, 0.85);
     }
+
     .selected {
         color: whitesmoke;
     }
+
     .more {
         display: flex;
         flex-direction: row;
     }
+
     .row {
         width: 250px;
         height: 170px;
@@ -490,6 +515,7 @@ a {
         transition: box-shadow .7s, width .4s, height .8s, border-radius .7s;
         transition-timing-function: linear;
     }
+
     .row:hover {
         cursor: pointer;
         width: 280px;
@@ -500,6 +526,7 @@ a {
         -moz-box-shadow: 0px 6px 12px 6px rgb(20, 158, 20);
         box-shadow: 0px 6px 12px 6px rgb(20, 158, 20);
     }
+
     .fa {
         font-size: 2.2em;
         border-top: 2px solid white;
@@ -510,57 +537,85 @@ a {
         transition: border-top .3s, color .1s;
         transition-timing-function: linear;
     }
+
     .fa:hover {
         color: rgb(128, 128, 128);
         border-top: 2px solid rgb(128, 128, 128);
         text-shadow: 1px 1px 1px rgb(128, 128, 128);
     }
+
     .envelope:hover {
         border-top: 2px solid darkorange;
         color: darkorange;
         text-shadow: 1px 1px 1px darkorange;
     }
+
     h5 {
         font-size: 1.5em;
         line-height: 50px;
     }
+
     a {
         font-size: 1.7em;
         border-top: 2px solid white;
         /* border-radius: 7px; */
         padding: 3px;
-        -webkit-transition: border-top .3s, color .1s;
-        -o-transition: border-top .3s, color .1s;
-        -moz-transition: border-top .3s, color .1s;
-        transition: border-top .3s, color .1s;
+        -webkit-transition: border-top .8s, color .6s;
+        -o-transition: border-top .8s, color .6s;
+        -moz-transition: border-top .8s, color .6s;
+        transition: border-top .8s, color .6s;
         transition-timing-function: linear;
     }
+
     a:hover {
         cursor: pointer;
         color: rgb(197, 41, 41);
         border-top: 2px solid rgb(197, 41, 41);
         text-shadow: 1px 1px 1px rgb(197, 41, 41);
     }
+
+    a[data-descr]:hover::after {
+        content: attr(data-descr);
+        position: absolute;
+        text-shadow: none;
+        left: 0;
+        top: 64px;
+        width: 240px;
+        border: 1px solid rgb(197, 41, 41);
+        border-radius: 7px;
+        -webkit-box-shadow: 0px 4px 12px 2px rgb(197, 41, 41);
+        -moz-box-shadow: 0px 4px 12px 2px rgb(197, 41, 41);
+        box-shadow: 0px 4px 12px 2px rgb(197, 41, 41);
+        padding: 9px;
+        color: black;
+        font-size: 15px;
+        z-index: 1;
+    }
+
     .hoverGit:hover {
         color: dimgray;
         border-top: 2px solid dimgray;
         text-shadow: 1px 1px 1px dimgray;
     }
+
     .hoverLinked:hover {
         color: rgb(72, 117, 180);
         border-top: 2px solid rgb(72, 117, 180);
         text-shadow: 1px 1px 1px rgb(72, 117, 180);
     }
+
     .hoverTwitter:hover {
         color: rgb(46, 187, 235);
         border-top: 2px solid rgb(46, 187, 235);
         text-shadow: 1px 1px 1px rgb(46, 187, 235);
     }
+
     .hoverResume:hover {
         color: rgb(107, 18, 107);
         border-top: 2px solid rgb(107, 18, 107);
         text-shadow: 1px 1px 1px rgb(107, 18, 107);
     }
+
     .node {
         background-size: cover;
         width: 105px;
@@ -572,6 +627,7 @@ a {
         background-repeat: no-repeat;
         background-position: left;
     }
+
     .ilian {
         width: 30%;
         justify-content: right;
@@ -579,6 +635,7 @@ a {
         border-bottom-right-radius: 7px;
         padding-left: 20px;
     }
+
     .developer {
         top: 50%;
         left: 65%;
@@ -593,18 +650,22 @@ a {
 }
 
 @media (min-width: 2000px) {
+
     h3,
     .ilian {
         font-size: 4em;
     }
+
     .ilian {
         padding-left: 40px;
     }
+
     .developer {
         font-size: 3.4em;
         padding-left: 170px;
         padding-right: 30px;
     }
+
     h3:hover,
     .ilian:hover {
         font-size: 4.2em;
