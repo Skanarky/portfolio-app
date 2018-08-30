@@ -3,6 +3,8 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -491,7 +493,7 @@ a {
         filter: brightness(115%);
         cursor: pointer;
     }
-    
+
     .navigation div:active {
         color: whitesmoke;
         transform: translateY(4px);
