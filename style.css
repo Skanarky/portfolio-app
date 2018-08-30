@@ -477,21 +477,28 @@ a {
         border: 1.5px solid white;
         border-right: 2px solid white;
         border-left: 2px solid white;
-        -webkit-box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.85);
-        -moz-box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.85);
-        box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.85);
-        -webkit-transition: color .3s, box-shadow .1s;
-        -o-transition: color .3s, box-shadow .1s;
-        -moz-transition: color .3s, box-shadow .1s;
-        transition: color .3s, box-shadow .1s;
+        -webkit-box-shadow: 0px 2px 3px 1px rgba(128, 128, 128, 0.85);
+        -moz-box-shadow: 0px 2px 3px 1px rgba(128, 128, 128, 0.85);
+        box-shadow: 0px 2px 3px 1px rgba(128, 128, 128, 0.85);
+        -webkit-transition: color .3s;
+        -o-transition: color .3s;
+        -moz-transition: color .3s;
+        transition: color .3s;
     }
 
     .navigation div:hover {
         color: whitesmoke;
+        filter: brightness(115%);
         cursor: pointer;
-        -webkit-box-shadow: 0px 1px 1px 1px rgba(128, 128, 128, 0.85);
-        -moz-box-shadow: 0px 1px 1px 1px rgba(128, 128, 128, 0.85);
-        box-shadow: 0px 1px 1px 1px rgba(128, 128, 128, 0.85);
+    }
+    
+    .navigation div:active {
+        color: whitesmoke;
+        transform: translateY(4px);
+        filter: brightness(115%);
+        -webkit-box-shadow: 0px 1px 0px 0px rgba(92, 91, 91, 0.85);
+        -moz-box-shadow: 0px 1px 0px 0px rgba(92, 91, 91, 0.85);
+        box-shadow: 0px 1px 0px 0px rgba(92, 91, 91, 0.85);
     }
 
     .selected {
