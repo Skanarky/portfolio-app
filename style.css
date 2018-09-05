@@ -204,12 +204,23 @@ h3 {
     margin: 5px;
     font-family: 'Exo 2', sans-serif;
     text-align: center;
+    -webkit-box-shadow: 0px 2px 3px 0 rgba(128, 128, 128, 0.85), inset 0 4px 5px rgba(255,255,255,.8), inset 0 -3px 5px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 2px 3px 0 rgba(128, 128, 128, 0.85), inset 0 4px 5px rgba(255,255,255,.8), inset 0 -3px 5px rgba(0,0,0,.7);
+    box-shadow: 0px 2px 3px 0 rgba(128, 128, 128, 0.85), inset 0 4px 5px rgba(255,255,255,.8), inset 0 -3px 5px rgba(0,0,0,.7);
 }
 
-.selected {
+.navigation div:active {
+    transform: translateY(1.5px);
+    /* filter: brightness(107%); */
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(92, 91, 91, 0.85), inset 0 2px 2px rgba(255,255,255,.8), inset 0 -2px 2px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(92, 91, 91, 0.85), inset 0 2px 2px rgba(255,255,255,.8), inset 0 -2px 2px rgba(0,0,0,.7);
+    box-shadow: 0px 1px 2px 0px rgba(92, 91, 91, 0.85), inset 0 2px 2px rgba(255,255,255,.8), inset 0 -2px 2px rgba(0,0,0,.7);
+}
+
+/* .selected {
     border: 2.5px solid white;
     filter: brightness(110%);
-}
+} */
 
 .colorTech {
     background-color: rgb(20, 158, 20);
@@ -473,15 +484,17 @@ a {
 
     .navigation div {
         width: 52px;
-        height: 35px;
+        height: 37px;
         margin: 10px;
         font-size: 1.6em;
-        border: 1.5px solid white;
+        padding: 1px;
+        /* border: 1.5px solid white;
         border-right: 2px solid white;
-        border-left: 2px solid white;
-        -webkit-box-shadow: 0px 2px 3px 1px rgba(128, 128, 128, 0.85);
-        -moz-box-shadow: 0px 2px 3px 1px rgba(128, 128, 128, 0.85);
-        box-shadow: 0px 2px 3px 1px rgba(128, 128, 128, 0.85);
+        border-left: 2px solid white; */
+        /* border: 1px solid black; */
+        /* -webkit-box-shadow: 0px 2px 3px 1px rgba(128, 128, 128, 0.85), inset 0 4px 4px rgba(255,255,255,.8), inset 0 -4px 4px rgba(0,0,0,.7);
+        -moz-box-shadow: 0px 2px 3px 1px rgba(128, 128, 128, 0.85), inset 0 4px 4px rgba(255,255,255,.8), inset 0 -4px 4px rgba(0,0,0,.7);
+        box-shadow: 0px 2px 3px 1px rgba(128, 128, 128, 0.85), inset 0 4px 4px rgba(255,255,255,.8), inset 0 -4px 4px rgba(0,0,0,.7); */
         -webkit-transition: color .3s;
         -o-transition: color .3s;
         -moz-transition: color .3s;
@@ -489,18 +502,13 @@ a {
     }
 
     .navigation div:hover {
-        color: whitesmoke;
-        filter: brightness(115%);
+        color: rgb(240, 240, 240);
+        /* filter: brightness(110%); */
         cursor: pointer;
     }
 
     .navigation div:active {
         color: whitesmoke;
-        transform: translateY(4px);
-        filter: brightness(115%);
-        -webkit-box-shadow: 0px 1px 0px 0px rgba(92, 91, 91, 0.85);
-        -moz-box-shadow: 0px 1px 0px 0px rgba(92, 91, 91, 0.85);
-        box-shadow: 0px 1px 0px 0px rgba(92, 91, 91, 0.85);
     }
 
     .selected {
