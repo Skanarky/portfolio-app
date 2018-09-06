@@ -150,7 +150,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: white;
+    color: black;
+    text-shadow: 3px 3px 5px white;
+    padding-bottom: 5px;
     text-transform: capitalize;
     font-size: 35px;
     background-color: black;
@@ -163,14 +165,15 @@
     top: 65%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    color: white;
+    color: black;
+    text-shadow: 3px 3px 5px white;
     opacity: 0;
     text-transform: capitalize;
-    font-size: 25px;
+    font-size: 28px;
     background-color: black;
     padding-left: 5px;
     padding-right: 5px;
-    padding-bottom: 2px;
+    padding-bottom: 4px;
     border-radius: 5px;
     animation: webDev 3.5s 2s 1;
     animation-timing-function: linear;
@@ -465,7 +468,7 @@ a {
     }
 
     .developer {
-        font-size: 2em;
+        font-size: 2.1em;
     }
 
     h3:hover,
@@ -659,11 +662,11 @@ a {
         left: 65%;
         /* padding: 0; */
         padding-top: 5px;
-        padding-bottom: 3px;
+        padding-bottom: 8px;
         border-radius: 7px;
         padding-left: 130px;
         padding-right: 15px;
-        border: 3px solid rgb(255, 255, 255);
+        /* border: 3px solid rgb(255, 255, 255); */
     }
 }
 
