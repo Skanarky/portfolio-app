@@ -469,6 +469,12 @@ a {
         font-size: 2.77em;
     }
 
+    .ilian {
+        -webkit-transition: color .7s;
+        -o-transition: color .7s;
+        -moz-transition: color .7s;
+        transition: color .7s;
+    }
     .developer {
         font-size: 2.1em;
     }
@@ -484,7 +490,8 @@ a {
     }
 
     .ilian:hover {
-        opacity: 0.7;
+        /* opacity: 0.7; */
+        color: rgb(235, 235, 235);
     }
 
     .navigation div {
@@ -657,6 +664,7 @@ a {
         border-top-right-radius: 7px;
         border-bottom-right-radius: 7px;
         padding-left: 20px;
+        padding-top: 10px;
     }
 
     .developer {
@@ -664,7 +672,7 @@ a {
         left: 65%;
         /* padding: 0; */
         padding-top: 5px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
         border-radius: 7px;
         padding-left: 130px;
         padding-right: 15px;
