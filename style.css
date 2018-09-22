@@ -334,7 +334,7 @@ li {
     -webkit-box-shadow: 0 8px 10px 1px rgba(20, 158, 20, 0.2), 0 3px 14px 2px rgba(20, 158, 20, 0.2), 0 6px 5px -3px rgba(20, 158, 20, 0.55);
     -moz-box-shadow: 0 8px 10px 1px rgba(20, 158, 20, 0.2), 0 3px 14px 2px rgba(20, 158, 20, 0.2), 0 6px 5px -3px rgba(20, 158, 20, 0.55);
     box-shadow: 0 8px 10px 1px rgba(20, 158, 20, 0.2), 0 3px 14px 2px rgba(20, 158, 20, 0.2), 0 6px 5px -3px rgba(20, 158, 20, 0.55);
-    -webkit-transition: box-shadow .7s, width .5s, height .5s, border-radius .7s, border .9s;
+    -webkit-transition: box-shadow .7s, width 1s, height 1s, border-radius .7s, border .9s;
     -o-transition: box-shadow .7s, width 1s, height 1s, border-radius .7s, border .9s;
     -moz-transition: box-shadow .7s, width 1s, height 1s, border-radius .7s, border .9s;
     transition: box-shadow .7s, width 1s, height 1s, border-radius .7s, border .9s;
